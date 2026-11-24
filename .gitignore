@@ -44,7 +44,16 @@ Thumbs.db
 desktop.ini
 
 # Project Generated Outputs & Temp files
-output/*.xlsx
-output/*.pptx
-output/*.png
+output/
 scratch/
+*.log
+*.tmp
+*.temp
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit secrets & config
+.streamlit/secrets.toml

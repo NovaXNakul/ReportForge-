@@ -1,0 +1,41 @@
+hospital_id,hospital_name,beds,daily_patients,doctors,latitude,longitude,last_updated,ground_truth_note
+H001,South City Memorial Hospital,250,320,45,18.9320,72.8250,2026-11-01,Cluster 0 - South Mumbai Core
+H002,Colaba Community Clinic,120,160,22,18.9345,72.8270,2026-11-02,Cluster 0 - South Mumbai Core
+H003,Marine Lines Medical Center,280,350,50,18.9400,72.8235,2026-11-03,Cluster 0 - South Mumbai Core
+H004,Nariman Point Specialty Care,180,240,35,18.9280,72.8220,2026-11-04,Cluster 0 - South Mumbai Core
+H005,Churchgate General Hospital,310,400,55,18.9350,72.8290,2026-11-05,Cluster 0 - South Mumbai Core
+H006,Fort Heritage Hospital,220,290,40,18.9380,72.8310,2026-11-06,Cluster 0 - South Mumbai Core
+H007,Gateway Health Institute,150,200,28,18.9240,72.8320,2026-11-07,Cluster 0 - South Mumbai Core
+H008,Cuffe Parade Care Clinic,90,120,18,18.9180,72.8210,2026-11-08,Cluster 0 - South Mumbai Core
+H009,Girgaon Terrace Hospital,200,260,36,18.9450,72.8200,2026-11-09,Cluster 0 - South Mumbai Core
+H010,Malabar Hill Wellness Center,140,180,25,18.9500,72.8120,2026-11-10,Cluster 0 - South Mumbai Core
+H011,Breach Candy Allied Care,260,330,48,18.9600,72.8080,2026-11-11,Cluster 0 - South Mumbai Core
+H012,Tardeo Metropolitan Hospital,275,360,50,18.9650,72.8150,2026-11-12,Cluster 0 - South Mumbai Core
+H013,Byculla Central Infirmary,320,410,58,18.9720,72.8320,2026-11-13,Cluster 0 - South Mumbai Core
+H014,Mazgaon Port Trust Hospital,190,250,34,18.9680,72.8420,2026-11-14,Cluster 0 - South Mumbai Core
+H015,Parel Apex Medical Hub,350,450,65,18.9900,72.8350,2026-11-15,Cluster 0 - South Mumbai Core
+H016,Andheri West Medicare,210,270,38,19.1180,72.8350,2026-11-01,Cluster 1 - Suburban Hub
+H017,Lokhandwala Health Pavilion,160,210,30,19.1350,72.8260,2026-11-02,Cluster 1 - Suburban Hub
+H018,Versova Coastal Hospital,130,170,24,19.1280,72.8180,2026-11-03,Cluster 1 - Suburban Hub
+H019,Juhu Life Sciences Hospital,290,380,52,19.1050,72.8280,2026-11-04,Cluster 1 - Suburban Hub
+H020,Vile Parle Specialty Clinic,175,230,32,19.1000,72.8420,2026-11-05,Cluster 1 - Suburban Hub
+H021,Santacruz Diagnostics Hospital,240,310,42,19.0850,72.8400,2026-11-06,Cluster 1 - Suburban Hub
+H022,Khar West Medical Suites,145,190,26,19.0720,72.8350,2026-11-07,Cluster 1 - Suburban Hub
+H023,Bandra Kurla Institute of Health,330,430,60,19.0650,72.8650,2026-11-08,Cluster 1 - Suburban Hub
+H024,Kalina Community Hospital,185,240,33,19.0780,72.8580,2026-11-09,Cluster 1 - Suburban Hub
+H025,Kurla West General Hospital,300,390,54,19.0700,72.8750,2026-11-10,Cluster 1 - Suburban Hub
+H026,Ghatkopar Premier Hospital,280,370,51,19.0900,72.9050,2026-11-11,Cluster 1 - Suburban Hub
+H027,Vidyavihar Care Clinic,110,140,20,19.0800,72.8980,2026-11-12,Cluster 1 - Suburban Hub
+H028,Powai Lake Medical Center,260,340,46,19.1200,72.9100,2026-11-13,Cluster 1 - Suburban Hub
+H029,Kanjurmarg District Hospital,225,295,40,19.1300,72.9250,2026-11-14,Cluster 1 - Suburban Hub
+H030,Bhandup Suburban Infirmary,195,255,35,19.1450,72.9350,2026-11-15,Cluster 1 - Suburban Hub
+H031,Grand Regional Mega Hospital,1250,1500,210,19.0100,72.8450,2026-11-10,Univariate Outlier (Extreme high beds/patients/doctors)
+H032,Micro Care Pod,12,14,2,18.9800,72.8300,2026-11-12,Univariate Outlier (Extremely low beds)
+H033,Phantom Capacity Sanatorium,600,12,3,19.0500,72.8500,2026-11-08,Multivariate Outlier (High beds but very low patients and doctors)
+H034,Overburdened Express Clinic,35,580,85,19.1100,72.8700,2026-11-09,Multivariate Outlier (Low beds but massive patient load and staff)
+H035,Western Ghats Rural Hospital,120,150,20,19.7200,73.4500,2026-11-04,Spatial Outlier (Isolated Rural East - DBSCAN Noise)
+H036,Alibaug Coastal Health Post,85,110,15,18.6500,72.8700,2026-11-05,Spatial Outlier (Isolated South Coast - DBSCAN Noise)
+H037,Palghar Hilltop Dispensary,95,125,16,19.6900,72.7600,2026-11-06,Spatial Outlier (Isolated North Coast - DBSCAN Noise)
+H038,Karjat Valley Care,70,90,12,18.9100,73.3200,2026-11-07,Spatial Outlier (Isolated Southeast Foothills - DBSCAN Noise)
+H039,Incomplete Record Clinic,,180,25,19.1250,72.8400,2026-11-11,Excluded from beds analysis (Missing beds value)
+H040,Bad Coordinate Center,150,190,28,999.0,72.8500,2026-11-13,Excluded from spatial clustering (Invalid latitude 999.0)
